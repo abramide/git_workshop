@@ -1,5 +1,5 @@
 using UnityEngine;
-    public class Mover : MonoBehaviour
+    public class Mover : MonoBehaviour, IMover
     {
         [field: SerializeField]
         public float Speed

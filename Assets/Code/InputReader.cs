@@ -23,12 +23,14 @@ public class InputReader : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        _inputActions = new Inputs();
+
     }
 
     private void OnEnable()
-    {
+    {        
+        _inputActions = new Inputs();
         _inputActions.PlayerActions.Enable();
+        _inputActions.PlayerActions.Move.Enable();
     }
 
     // Update is called once per frame
