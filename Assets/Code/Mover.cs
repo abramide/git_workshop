@@ -1,6 +1,4 @@
 using UnityEngine;
-
-{
     public class Mover : MonoBehaviour
     {
         [field: SerializeField]
@@ -15,4 +13,3 @@ using UnityEngine;
             transform.position += (Vector3)direction * Speed * Time.deltaTime;
         }
     }
-}
