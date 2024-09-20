@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "git_workshop.sln"
+    "dotnet.defaultSolution": "GitWorkshop.sln"
 }
